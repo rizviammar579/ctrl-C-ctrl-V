@@ -69,11 +69,11 @@ const Form = ({ get, setMyFunc }) => {
   }
 
   const [showpassword, setShowpassword] = useState(false)
-  const [changeicon, setChangeicon] = useState("hide.png")
+  const [changeicon, setChangeicon] = useState("show.png")
 
   const showPassword = () => {
     setShowpassword(!showpassword)
-    showpassword ? setChangeicon("hide.png") : setChangeicon("show.png")
+    showpassword ? setChangeicon("show.png") : setChangeicon("hide.png")
 
   }
 
