@@ -62,7 +62,7 @@ I also learned:
 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/rizviammar579/ctrl-C-ctrl-V
 ```
 
 2. Install dependencies
